@@ -29,4 +29,6 @@ To run this project locally, follow these steps:
 
 2. Open the `index.html` file in your web browser.
 
+-deployed link:https://admin-dashboard55.netlify.app/
+
 
