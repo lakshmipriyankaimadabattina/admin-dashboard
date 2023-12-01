@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="UTF-8"> 
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>User Table</title> <link rel="stylesheet" href="styles.css"> 
+        </head> 
+        <body> 
+            <div id="header">
+                <h1>Welcome to the Admin Dashboard</h1>
+                <p>Explore and manage users with ease using our intuitive interface.</p>
+                <div id="additional-info">
+                    <div class="info-box">
+                        <h2>Powerful Features</h2>
+                        <p>Effortlessly edit, delete, and search for users on-the-fly. Our dashboard provides a seamless experience for managing user data.</p>
+                    </div>
+                    <div class="info-box">
+                        <h2>Quick Navigation</h2>
+                        <p>Use pagination buttons to navigate through user records swiftly. The intuitive design ensures efficient data exploration.</p>
+                    </div>
+                    <div class="info-box">
+                        <h2>Select & Delete</h2>
+                        <p>Checkboxes allow you to select one or more rows for deletion. The 'Delete Selected' button simplifies bulk actions for ultimate convenience.</p>
+                    </div>
+                </div>
+            </div>
+            <input type="text" id="search-input" placeholder="Search by name, email, etc..."> 
+            <div> 
+                <table id="user-table"> 
+                    <thead> 
+                        <tr> 
+                            <th><input type="checkbox" id="select-all-header"></th> 
+                                <th>ID</th> 
+                                <th>Name</th> 
+                                <th>Email</th> 
+                                <th>Role</th> 
+                                <th>Action</th> 
+                            </tr> 
+                        </thead> 
+                        <tbody id="table-body" class="clickable-row"></tbody> 
+                    </table> 
+                    <button id="delete-selected">Delete Selected</button> 
+                </div> 
+                <div id="pagination"> 
+                    <button class="page-button first-page">First</button> 
+                    <button class="page-button previous-page">Previous</button> 
+                    <button class="page-button page-number">1</button> 
+                    <button class="page-button next-page">Next</button> 
+                    <button class="page-button last-page">Last</button> 
+                </div> 
+                <div id="about-me">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Lakshmi Priyanka Imadabattina, the creator behind this Admin Dashboard. I am passionate about web development and enjoy crafting user-friendly interfaces. This project demonstrates my skills in HTML, CSS, and JavaScript, showcasing my ability to design and implement efficient solutions.</p>
+                    <p>Feel free to explore the dashboard and its features. If you have any questions or feedback, I'd love to hear from you!</p>
+                </div>
+                <div id="additional-info">
+                    <p><strong>Note:</strong> This project is developed by a fresher, and there might be minor mistakes. I am dedicated to learning and improving my skills. Your understanding is appreciated.</p>
+                    <p>I am committed to working hard and continuously improving. Thank you for your consideration.</p>
+                </div>
+                <script src="scripts.js"></script> 
+            </body>
+             </html>
+
